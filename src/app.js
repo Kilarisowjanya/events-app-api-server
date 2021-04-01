@@ -12,6 +12,7 @@ const eventRouter = require('./routes/event');
 const configRouter = require('./routes/config');
 
 const app = express();
+// just added for git change
 
 app.use(logger('dev'));
 app.use(express.json());
